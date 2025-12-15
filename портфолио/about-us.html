@@ -7,19 +7,18 @@
     <title>FlashLink</title>
     <link rel="stylesheet" href="./css/globals.css">
     <link rel="stylesheet" href="../aos-animation/aos.css">
-
 </head>
 
-<body class="min-h-screen flex flex-col bg-white text-black">
+<body class="min-h-screen flex flex-col bg-white text-black ">
 
     <header class="w-full">
         <div
             class="mx-auto max-w-7xl px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 flex items-center justify-between rounded-b-3xl shadow-xl">
-            <a href="#!" class="text-2xl sm:text-3xl font-bold hover:opacity-60">FlashLink</a>
+            <a href="./index.html" class="text-2xl sm:text-3xl font-bold hover:opacity-60">FlashLink</a>
             <nav>
                 <ul class="flex items-center gap-4 sm:gap-6 md:gap-6 text-base sm:text-lg md:text-xl">
+                    <li><a href="../index.html" class="hover:opacity-60">Визитка</a></li>
                     <li><a href="#!" class="hover:opacity-60">Работы</a></li>
-                    <li><a href="./about-us.html" class="hover:opacity-60">О нас</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,31 +27,39 @@
     <main class="flex-1 w-full container px-4 mx-auto">
         <section class="px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-20 text-black">
             <h1 data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300"
-                class="wow animate__rubberBand text-4xl sm:text-5xl md:text-6xl font-extrabold mb-8 sm:mb-10 md:mb-12 text-center">
-                FlashLink
+                class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-8 sm:mb-10 md:mb-12 text-center">FlashLink
             </h1>
-            <div class="flex flex-col xl:flex-row justify-center items-center gap-10 xl:gap-20">
-                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500"
+            <div class="flex flex-col-reverse xl:flex-row justify-center items-center gap-10 xl:gap-20">
+                <div
+                    class="w-full xl:w-1/2 flex flex-col justify-center items-center xl:justify-start text-center xl:text-left space-y-4 sm:space-y-5 text-xl sm:text-2xl md:text-3xl">
+                    <p data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">Один клик — и человек уже там,
+                        где вам нужно: мессенджер, соцсети, сайт, карта или любой другой
+                        ресурс.
+                    </p>
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250">Без лишних действий, без
+                        поиска, без потерь внимания.</p>
+                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">Всё продумано так, чтобы
+                        клиент не думал — он нажимал.</p>
+
+                    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="550">FlashLink — когда контакт
+                        превращается в действие.</p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="700" data-aos-delay="400"
                     class="w-64 h-64 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-xl shadow-black/40 mb-8 xl:mb-0 flex-shrink-0">
-                    <img src="./image/pict/картинкаН.png" alt="FlashLink логотип" class="w-full h-full object-cover" />
+                    <img src="./image/pict/о-нас.jpeg" alt="О нас" class="w-full h-full object-cover" />
                 </div>
-                <div 
-                    class="w-full xl:w-1/2 flex flex-col justify-center items-center xl:justify-start text-center xl:text-right space-y-4 sm:space-y-5 text-xl sm:text-2xl md:text-3xl">
-                    <p data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">Создавайте свои визитки онлайн</p>
-                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Делитесь контактами одним кликом</p>
-                    <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">Подходит для соцсетей, портфолио и проектов</p>
-                </div>
+
             </div>
         </section>
     </main>
 
-    <footer class="w-full">
+    <footer class="w-full ">
         <div
             class="mx-auto max-w-7xl px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between rounded-t-3xl shadow-2xl gap-6 md:gap-0">
-            <a href="/" class="text-3xl font-bold hover:opacity-60 mb-4 md:mb-0">FlashLink</a>
+            <a href="./index.html" class="text-3xl font-bold hover:opacity-60 mb-4 md:mb-0">FlashLink</a>
             <nav class="w-full md:w-auto">
                 <ul
-                    class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 text-sm sm:text-[15px] md:text-base">
+                    class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 text-sm sm:text-[15px] md:text-base pb-8 sm:pb-5">
                     <li>
                         <div class="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-4">
                             <span class="font-semibold">Владислав :</span>
@@ -83,7 +90,7 @@
             </nav>
         </div>
     </footer>
-
+    <script src="../aos-animation/aos.js"></script>
     <script src="../aos-animation/aos.js"></script>
     <script src="../aos-animation/aosInit.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss-browser/4.1.13/index.global.min.js"
