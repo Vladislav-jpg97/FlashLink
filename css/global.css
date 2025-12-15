@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+
+
+
+:root {
+    --font-Pacifico: "Pacifico", cursive;
+}
+
+body {
+    font-family: var(--font-Pacifico);
+}

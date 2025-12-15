@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>FlashLink — Визитка и ссылки</title>
+    <meta name="description"
+        content="FlashLink — создаю красивые визитки, Telegram, Instagram, портфолио и контактные ссылки.">
+    <meta name="keywords" content="FlashLink, визитки, контакты, Telegram, Instagram">
+    <meta name="author" content="Владислав Олегович">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <!-- Open Graph для соцсетей -->
+    <meta property="og:title" content="FlashLink">
+    <meta property="og:description"
+        content="FlashLink — создаю красивые визитки, Telegram, Instagram, портфолио и контактные ссылки.">
+    <meta property="og:url" content="https://vladislav-jpg97.github.io/MyBusinessCard/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://vladislav-jpg97.github.io/MyBusinessCard/img/img/im.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FlashLink">
+    <meta name="twitter:description"
+        content="FlashLink — создаю красивые визитки, Telegram, Instagram, портфолио и контактные ссылки.">
+    <meta name="twitter:image" content="https://vladislav-jpg97.github.io/MyBusinessCard/img/img/im.jpg">
+    <!-- Стили -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./aos-animation/aos.css">
+</head>
+
+
+<body class="flex flex-col justify-start items-center font-sans text-white px-4 pb-15 pt-4 min-h-screen">
+
+    <!-- Header с кнопкой Share -->
+    <header class="w-full py-1">
+        <div data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+            class="container mx-auto px-2 flex justify-end">
+            <button id="js-share" type="button" class="pr-3">
+                <img src="./img/svg/share.svg" alt="share" class="w-5 h-5" />
+            </button>
+        </div>
+    </header>
+
+    <!-- Секция с названием и аватаром -->
+    <section class="flex flex-col items-center justify-center gap-3">
+        <h1 data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+            class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#8d9cf4] via-[#7bcdd1] to-[#fefefe] drop-shadow-lg">
+            FlashLink
+        </h1>
+        <div data-aos="flip-up" data-aos-duration="600" data-aos-delay="50" data-aos-easing="ease-in-sine"
+            class="w-[130px] h-[130px] rounded-full overflow-hidden shadow-xl shadow-black/40">
+            <img class="w-full h-full object-cover" src="./img/img/im.jpg" alt="Аватар">
+        </div>
+    </section>
+
+    <!-- Секция с именем и описанием -->
+    <section class="flex flex-col items-center justify-center py-2 text-center gap-2">
+        <h4 data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+            class="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#8d9cf4] via-[#7bcdd1] to-[#fefefe] drop-shadow-lg">
+            Владислав
+        </h4>
+        <p data-aos="flip-up" data-aos-easing="ease-in-sine" class="text-white max-w-xs text-2xl">Создам красивые
+            визитки для Вас!</p>
+    </section>
+
+    <!-- Секция для кнопок / ссылок -->
+    <section class="flex flex-col items-center justify-center py-2 w-full sm:max-w-xs gap-3" id="links">
+        <ul id="js-cart" class="flex flex-col gap-3 w-full">
+            <!-- Telegram -->
+            <li data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+                class="button-gradient px-4 py-2 cursor-pointer w-full">
+                <a href="https://t.me/AdibayVladik" target="_blank"
+                    class="flex items-center gap-4 text-white text-lg font-medium relative z-10">
+                    <img src="./img/svg/telegram.svg" alt="Telegram" class="w-8 h-8 mx-auto" />
+                    <div class="w-[1px] h-6 bg-white/40"></div>
+                    <span class="text-white font-semibold drop-shadow-md mx-auto">Телеграм</span>
+                </a>
+            </li>
+
+            <!-- Instagram -->
+            <li data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+                class="button-gradient px-4 py-2 cursor-pointer w-full">
+                <a href="https://www.instagram.com/vladoc_97/" target="_blank"
+                    class="flex items-center gap-4 text-white text-lg font-medium ">
+                    <img src="./img/svg/instagram.svg" alt="Instagram" class="w-8 h-8 mx-auto" />
+                    <div class="w-[1px] h-6 bg-white/40"></div>
+                    <span class="text-white font-semibold drop-shadow-md mx-auto mx-auto">Инстаграм</span>
+                </a>
+            </li>
+
+            <!-- Телефон -->
+            <li data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+                class="button-gradient px-4 py-2 cursor-pointer w-full">
+                <a href="tel:+998970978720" class="flex items-center gap-4 text-white text-lg font-medium">
+                    <img src="./img/svg/call-me-hand.svg" alt="Телефон" class="w-8 h-8 mx-auto" />
+                    <div class="w-[1px] h-6 bg-white/40"></div>
+                    <span class="text-white font-semibold drop-shadow-md mx-auto ">970978720</span>
+                </a>
+            </li>
+
+            <!-- Портфолио -->
+            <li data-aos="flip-up" data-aos-duration="500" data-aos-delay="50" data-aos-easing="ease-in-sine"
+                class="button-gradient px-4 py-2 cursor-pointer w-full">
+                <a href="./портфолио/index.html" class="flex items-center gap-4 text-white text-lg font-medium">
+                    <img src="./img/svg/portfolio.svg" alt="Портфолио" class="w-8 h-8 mx-auto" />
+                    <div class="w-[1px] h-6 bg-white/40"></div>
+                    <span class="text-white font-semibold drop-shadow-md mx-auto">Портфолио</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Скрипты -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss-browser/4.1.13/index.global.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/data.js"></script>
+    <script src="./aos-animation/aos.js"></script>
+    <script src="./aos-animation/aosInit.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+
+
+
+</html>
