@@ -1,5 +1,5 @@
 /* Фон для body — тёмные оттенки с плавным движением */
-body {
+/* body {
     font-family: 'Pacifico', cursive;
     background: linear-gradient(135deg, #2a2a2a, #3b3b3b, #4d4d4d, #1a1a1a);
     background-size: 200% 200%;
@@ -7,17 +7,16 @@ body {
 }
 
 /* Анимация движения градиента */
-@keyframes gradient-move {
+/* @keyframes gradient-move {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
-}
+} */
 
 /* Лёгкое мерцание света */
-@keyframes gradient-flicker {
+/* @keyframes gradient-flicker {
     0%, 100% { filter: brightness(0.95); }
-    50% { filter: brightness(1.05); }
-}
+    50% { filter: brightness(1.05); } */
 
 /* кнопка */
 

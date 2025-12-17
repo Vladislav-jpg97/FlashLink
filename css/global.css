@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
 
+body {
+    font-family: 'Pacifico', cursive;
+    background: url('../img/нг.png') no-repeat center center fixed;
+    background-size: cover;
+}
 
-
+/* Для экранов шириной 1200 пикселей и больше */
+@media (min-width: 1200px) {
+    body {
+        background: url('../img/нг2.png') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
 
 :root {
     --font-Pacifico: "Pacifico", cursive;
